@@ -7,6 +7,7 @@ class Product:
     def __str__(self):
         return f'{self.name}, {self.weight}, {self.category}'
 
+
 class Shop:
     def __init__(self):
         self.__file_name = 'products.txt'
