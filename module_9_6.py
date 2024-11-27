@@ -4,6 +4,7 @@ def all_variants(text: str):
         for i in range(length - size + 1):
             yield text[i:i + size]
 
+
 a = all_variants("abc")
 for n in a:
     print(n)
